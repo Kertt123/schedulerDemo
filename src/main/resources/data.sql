@@ -1,0 +1,19 @@
+DROP TABLE IF EXISTS reports;
+
+CREATE TABLE reports (
+  id INT AUTO_INCREMENT  PRIMARY KEY,
+  name VARCHAR(250) NOT NULL,
+  status VARCHAR(250) NOT NULL,
+  CREATE_DATE TIME
+);
+
+
+--SELECT * FROM REPORTS
+--
+--INSERT INTO reports (name, status) VALUES
+--  ('Report1', 'CREATED');
+--INSERT INTO reports (name, status) VALUES
+--  ('Report2', 'CREATED');
+--
+--UPDATE REPORTS SET STATUS = 'IN_PROGRESS' WHERE id = 1;
+--UPDATE REPORTS SET STATUS = 'IN_PROGRESS' WHERE id = 2;
